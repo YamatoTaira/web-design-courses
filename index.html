@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Онлайн-курс по веб-дизайну</title>
+  <meta name="description" content="Освой веб-дизайн с нуля за 12 недель, собери портфолио и начни зарабатывать на реальных проектах.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-glow page-glow--one"></div>
+  <div class="page-glow page-glow--two"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <nav class="top-nav">
+    <div class="container top-nav-inner">
+      <a href="#hero" class="brand">WebDesign Start</a>
+      <a href="#enroll" class="btn btn-primary btn-small">Записаться</a>
+    </div>
+  </nav>
+
+  <header class="hero section" id="hero">
+    <div class="container reveal">
+      <span class="badge">Старт ближайшего потока: <span id="countdown">через 7 дней</span></span>
+      <h1>Стань веб-дизайнером за 12 недель и начни зарабатывать уже во время обучения</h1>
+      <p class="hero-subtitle">
+        Пошаговый онлайн-курс для новичков: от базовых инструментов до первых платных заказов и портфолио из 4 кейсов.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#enroll" class="btn btn-primary">Записаться</a>
+        <a href="#program" class="btn btn-secondary">Начать обучение</a>
+      </div>
+
+      <ul class="trust-list">
+        <li><strong>1 850+</strong> учеников прошли курс</li>
+        <li><strong>87%</strong> сделали первый заказ за 2 месяца</li>
+        <li><strong>Гарантия</strong> возврата 14 дней</li>
+      </ul>
+
+      <div class="hero-mini-cards">
+        <article class="mini-card">
+          <span>Средний доход выпускника</span>
+          <strong>от 70 000 ₽/мес</strong>
+        </article>
+        <article class="mini-card">
+          <span>Формат</span>
+          <strong>Онлайн, 5-7 часов в неделю</strong>
+        </article>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="program section" id="program">
+      <div class="container reveal">
+        <h2>Программа курса</h2>
+        <p class="section-text">5 практических модулей, которые дают навык, результат и готовые кейсы в портфолио.</p>
+
+        <div class="grid program-grid">
+          <article class="card reveal">
+            <span class="card-number">Модуль 1</span>
+            <h3>База дизайна и насмотренность</h3>
+            <p>Композиция, типографика, цвет, сетки и UX-мышление. Учимся принимать сильные визуальные решения.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-number">Модуль 2</span>
+            <h3>Figma с нуля до уверенного уровня</h3>
+            <p>Автолейауты, компоненты, стили, прототипы, дизайн-системы. Работаешь быстро и чисто, как в студии.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-number">Модуль 3</span>
+            <h3>Лендинги и коммерческие интерфейсы</h3>
+            <p>Создаешь продающие страницы: оффер, структура, смыслы, CTA. Делаем проект под реальный бизнес-бриф.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-number">Модуль 4</span>
+            <h3>Портфолио и упаковка специалиста</h3>
+            <p>Оформляешь 4 кейса, усиливаешь визуал и презентацию, чтобы клиент видел ценность и выбирал тебя.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-number">Модуль 5</span>
+            <h3>Первые деньги в профессии</h3>
+            <p>Где искать клиентов, как писать отклики, проводить созвон и закрывать сделки на фрилансе.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing section" id="pricing">
+      <div class="container reveal">
+        <h2>Тарифы</h2>
+        <p class="section-text">Выбери формат обучения под свой темп и цель.</p>
+        <div class="grid pricing-grid">
+          <article class="price-card reveal" data-tariff="Старт">
+            <h3>Старт</h3>
+            <p class="price">12 900 ₽</p>
+            <ul>
+              <li>Доступ к урокам 6 месяцев</li>
+              <li>Домашние задания и шаблоны</li>
+              <li>Чат учеников</li>
+            </ul>
+            <a href="#enroll" class="btn btn-secondary select-tariff-btn" data-tariff="Старт">Записаться</a>
+          </article>
+
+          <article class="price-card featured reveal" data-tariff="Профи">
+            <span class="featured-label">Хит продаж</span>
+            <h3>Профи</h3>
+            <p class="price">21 900 ₽</p>
+            <ul>
+              <li>Все из тарифа «Старт»</li>
+              <li>Проверка работ куратором</li>
+              <li>Разбор портфолио + карьерный блок</li>
+              <li>Поддержка 12 месяцев</li>
+            </ul>
+            <a href="#enroll" class="btn btn-primary select-tariff-btn" data-tariff="Профи">Начать обучение</a>
+          </article>
+
+          <article class="price-card reveal" data-tariff="Наставник">
+            <h3>Наставник</h3>
+            <p class="price">34 900 ₽</p>
+            <ul>
+              <li>Все из тарифа «Профи»</li>
+              <li>6 личных созвонов 1:1</li>
+              <li>Помощь с первыми заказами</li>
+              <li>Приоритетная проверка заданий</li>
+            </ul>
+            <a href="#enroll" class="btn btn-secondary select-tariff-btn" data-tariff="Наставник">Записаться</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews">
+      <div class="container reveal">
+        <h2>Отзывы учеников</h2>
+        <p class="section-text">Результаты тех, кто начинал с нуля.</p>
+        <div class="grid reviews-grid">
+          <blockquote class="review-card reveal">
+            <p>"До курса не работала в дизайне. Через 6 недель собрала первый лендинг и взяла заказ на 18 000 ₽."</p>
+            <cite>— Марина, 24 года</cite>
+          </blockquote>
+          <blockquote class="review-card reveal">
+            <p>"Самое ценное — структура и обратная связь. Сделал портфолио, получил 3 клиента за первый месяц."</p>
+            <cite>— Артем, 29 лет</cite>
+          </blockquote>
+          <blockquote class="review-card reveal">
+            <p>"Понравилось, что без воды: только практика. Уже на 2-м месяце окупила обучение и ушла с нелюбимой работы."</p>
+            <cite>— Екатерина, 31 год</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="enroll section" id="enroll">
+      <div class="container enroll-layout reveal">
+        <div class="enroll-copy reveal">
+          <h2>Запишись на курс и получи карьерный чек-лист в подарок</h2>
+          <p>Оставь заявку — пришлем программу, поможем выбрать тариф и закрепим скидку 20% до конца недели.</p>
+          <ul class="trust-list">
+            <li><strong>Без риска:</strong> возврат в течение 14 дней</li>
+            <li><strong>Результат:</strong> портфолио + стратегия поиска заказов</li>
+            <li><strong>Поддержка:</strong> наставники и комьюнити 7 дней в неделю</li>
+          </ul>
+        </div>
+
+        <form class="enroll-form reveal" id="leadForm">
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" placeholder="Как к вам обращаться" required>
+
+          <label for="contact">Email или Telegram</label>
+          <input type="text" id="contact" name="contact" placeholder="example@mail.com / @nickname" required>
+          <input type="hidden" id="tariff" name="tariff" value="Профи">
+          <p class="selected-tariff">Выбран тариф: <strong id="selectedTariff">Профи</strong></p>
+
+          <button type="submit" class="btn btn-primary">Записаться</button>
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.</p>
+          <p class="form-success" id="successMessage" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <a href="#enroll" class="mobile-cta">Начать обучение</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
